@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "appointments",
+  "info": {
+    "singularName": "appointment",
+    "pluralName": "appointments",
+    "displayName": "Appointment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "unique": true
+    },
+    "phone": {
+      "type": "biginteger",
+      "unique": true
+    },
+    "day": {
+      "type": "string"
+    },
+    "department": {
+      "type": "string"
+    },
+    "doctor": {
+      "type": "string"
+    }
+  }
+}
